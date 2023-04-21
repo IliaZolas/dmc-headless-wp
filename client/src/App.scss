@@ -1,0 +1,33 @@
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0,33,33);
+  background: linear-gradient(90deg, rgba(0,33,33,1) 0%, rgba(0,45,45,1) 100%); 
+}
+
+h1 {
+  color: white;
+  font-size: 44px;
+  line-height: 0.8;
+}
+
+h2 {
+  color: #cac8c8;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #009c9c;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+
+}
