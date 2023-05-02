@@ -1,9 +1,15 @@
 import './card.scss';
 
-const Card = () => {
+const Card = ({title, icon, text}) => {
     return (
-        <div className="">
-         
+        <div className="card">
+            <div>
+                <h2>{title}</h2>
+                <p>{text}</p>
+            </div>
+            <div>
+                <img src={icon} alt="" />
+            </div>
         </div>
     );
 }
