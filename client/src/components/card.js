@@ -7,7 +7,7 @@ const Card = ({title, icon, text}) => {
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>
-            <div>
+            <div className='icon-border'>
                 <img src={icon} alt="" />
             </div>
         </div>

@@ -11,23 +11,23 @@ const Timeline = () => {
         <div className="flex">
             <div>
                 <Card 
-                    title="card 1"
-                    text="this is text"
+                    title="Integration for all platforms"
+                    text="Connect all of your apps in one place using simple plug and play processes designed to keep your work as simple as possible."
                     icon={Atom}/>
                 <Card 
-                    title="card 2"
-                    text="this is text"
+                    title="Working round the clock"
+                    text="DMC handles the work of an entire department, allowing you to focus on hiring diverse specialists on matters that web tech cannot."
                     icon={Alarm}/>
             </div>            
             <Track />
             <div>
                 <Card 
-                    title="card 3"
-                    text="this is text"
+                    title="AI generated reporting"
+                    text="No need to perform sentiment analysis or create new spreadsheets of your data. Our AI systems report on the status of your presence and what to do. "
                     icon={Robot}/>
                 <Card 
-                    title="card 4"
-                    text="this is text"
+                    title="Security and Threat Detection"
+                    text="Secure data storage and pre-emptive threat detection, providing you with a safe environment and support for incoming challenges."
                     icon={Shield}/>
             </div>
         </div>
