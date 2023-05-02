@@ -1,8 +1,6 @@
-
-
 .App {
-  // width: 100vw;
-  // height: 100vh;
+  width: 100vw;
+  height: 100vh;
   background: rgb(0,33,33);
   background: linear-gradient(90deg, rgba(0,33,33,1) 0%, rgba(0,45,45,1) 100%); 
 }
@@ -19,6 +17,11 @@ h2 {
   font-weight: lighter;
 }
 
+.container-nav {
+  width: 800px;
+  margin: auto;
+}
+
 .btn-primary {
   color: white;
   background-color: #009c9c;
@@ -30,4 +33,13 @@ h2 {
 
 .btn-secondary {
 
+}
+
+.bg-img {
+  position: absolute;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
 }

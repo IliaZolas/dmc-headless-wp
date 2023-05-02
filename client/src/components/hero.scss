@@ -1,45 +1,37 @@
 
 
 .hero-container {
-    // height: 100vh;
+    height: 100vh;
+    width: 1000px;
     // overflow: hidden;
+    margin: auto;
     position: relative;
 }
 
-
-
-.hero-bg-img {
-    position: absolute;
-    // justify-content: space-around;
-}
-
-.flex {
-    display: flex;
-}
-
 .hero-content {
-    // width: 1920px;
+    width: 100%;
     margin: auto;
     position: relative;
     top: 300px;
 }
 
 .hero-text {
-    position: relative;
+    position: absolute;
     top: 100px;
-    left: 300px;
-    width: 620px;
+    left: -120px;
+    width: 500px;
 }
 
 .hero-connect-img {
-    position: relative;
-    top: 200px;
-    left: -50px;
+    position: absolute;
+    top: 250px;
+    left: 180px;
+    opacity: 0.05;
 }
 
 .hero-product-img {
-    position: relative;
-    left: -50px;
+    position: absolute;
+    left: 450px;
 }
 
 .hero-btn-position {

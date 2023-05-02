@@ -6,13 +6,17 @@ import Solutions from './pages/solutions';
 import Services from './pages/services';
 import RequestAccess from './pages/requestAccess';
 import CaseStudies from './pages/caseStudies';
+import Texture from './assets/home-texture.jpg';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <div className="container">
+      <div className="bg-img">
+          <img src={Texture} alt="" style={{width: "100vw", opacity: "0.5%"}} />
+      </div>
+      <div className="container-nav">
         <Nav />
       </div>
         <Routes>
