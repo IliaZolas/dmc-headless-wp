@@ -19,7 +19,7 @@ const Timeline = () => {
                     text="DMC handles the work of an entire department, allowing you to focus on hiring diverse specialists on matters that web tech cannot."
                     icon={Alarm}/>
             </div>            
-            <Track />
+            {/* <Track /> */}
             <div>
                 <Card 
                     title="AI generated reporting"

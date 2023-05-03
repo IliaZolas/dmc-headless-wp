@@ -4,7 +4,7 @@ const Card = ({title, icon, text}) => {
     return (
         <div className="card">
             <div>
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{text}</p>
             </div>
             <div className='icon-border'>

@@ -5,6 +5,11 @@
   background: linear-gradient(90deg, rgba(0,33,33,1) 0%, rgba(0,45,45,1) 100%); 
 }
 
+p {
+  color: #cac8c8;
+  font-weight: lighter;
+}
+
 h1 {
   color: white;
   font-size: 44px;
@@ -15,6 +20,32 @@ h2 {
   color: #cac8c8;
   font-size: 24px;
   font-weight: lighter;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #009c9c;
+  font-size: 44px;
+  line-height: 0.8;
+}
+
+h5 {
+  color: #009c9c;
+  font-size: 24px;
+  line-height: 0em;
+  margin: 0;
+}
+
+h6 {
+  color: #cac8c8;
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 0;
 }
 
 .container-nav {
@@ -42,4 +73,8 @@ h2 {
 
 .flex {
   display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
 }
