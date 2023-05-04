@@ -8,7 +8,7 @@ const CardSecondarySection = () => {
     return (
         <div className="card-secondary-section">
             <div className="secondary-bg-img">
-                <img src={Texture} alt="" style={{width: "100vw", opacity: "2%"}} />
+                <img src={Texture} alt="" style={{width: "95vw", opacity: "2%"}} />
             </div>
             <h4>Your personal assistant</h4>
             <h6>Waiting with just a few clicks</h6>

@@ -1,0 +1,36 @@
+.footer {
+    width: 100vw;
+    height: 300px;
+    background: rgb(0,33,33);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.footer-container {
+    width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+.footer-links-column li a {
+    text-decoration: none;
+    color: #cac8c8;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.footer-disclaimer {
+    width: 400px;
+    margin: auto;
+    padding-top: 70px;
+}

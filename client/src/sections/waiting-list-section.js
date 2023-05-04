@@ -10,7 +10,7 @@ const WaitingListSection = () => {
                         <img src={Code} alt="" style={{width: "30px"}}/>
                     </div>
                     <div>
-                        <h1>Currently in Development</h1>
+                        <h7>Currently in Development</h7>
                         <p>We’re building this suite because we are  passionate about organizing digital information and presenting it in transformative ways. </p>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Home from './pages/home';
 import Nav from './components/nav';
+import Footer from './sections/footer';
 import Solutions from './pages/solutions';
 import Services from './pages/services';
 import RequestAccess from './pages/requestAccess';
@@ -41,6 +42,7 @@ function App() {
               element={<RequestAccess />} 
               />              
           </Routes>
+          <Footer />
       </div>
     </Router>
   );
