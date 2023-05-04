@@ -7,7 +7,7 @@ import Texture from "../assets/home-texture.jpg"
 const CardSecondarySection = () => {
     return (
         <div className="card-secondary-section">
-            <div className="bg-img">
+            <div className="secondary-bg-img">
                 <img src={Texture} alt="" style={{width: "100vw", opacity: "2%"}} />
             </div>
             <h4>Your personal assistant</h4>

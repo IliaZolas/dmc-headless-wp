@@ -2,6 +2,7 @@
     background-color: #022122;
     padding: 50px;
     text-align: center;
+    height: 1200px;
     overflow: hidden;
 }
 
@@ -9,4 +10,10 @@
     // border: 1px solid red;
     width: 1400px;
     margin: auto;
+}
+
+.secondary-bg-img {
+    position: absolute;
+    height: 1200px;
+    overflow: hidden;
 }

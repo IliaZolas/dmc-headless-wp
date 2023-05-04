@@ -8,12 +8,14 @@
 p {
   color: #cac8c8;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 h1 {
   color: white;
   font-size: 44px;
   line-height: 0.8;
+  margin: 0;
 }
 
 h2 {
@@ -77,4 +79,8 @@ h6 {
 
 .space-between {
   justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
 }
