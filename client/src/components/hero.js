@@ -15,7 +15,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-connect-img">
-                    <img src={Connect} alt="" style={{width: "300px"}} />
+                    <img src={Connect} alt="" style={{width: "500px"}} />
                 </div>
                 <div className="hero-product-img">
                     <img src={Product} alt="" style={{width: "700px", zIndex: "100"}} />
