@@ -1,54 +1,29 @@
-import { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import './track.scss';
 
 const Track = () => {
-  const [isIntersecting, setIntersecting] = useState(false);
-  const [translateY, setTranslateY] = useState(0);
-  const containerRef = useRef(null);
+  const [lineHeight, setLineHeight] = useState(0);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        // Set isIntersecting to true when the element enters the viewport
-        setIntersecting(entry.isIntersecting);
-      },
-      {
-        // Only detect intersection when the element is completely visible
-        threshold: 1,
-      }
-    );
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
+    const handleScroll = () => {
+        
+        const timeline = document.querySelector(".timeline-container");
+        const timelineHeight = timeline.offsetHeight;
+        const timelineTop = timeline.offsetTop;
+        const scrollDistance = window.pageYOffset + window.innerHeight;
+        const scrollPercent = (scrollDistance - timelineTop) / timelineHeight;
+        const newLineHeight = scrollPercent * timelineHeight;
+
+        setLineHeight(newLineHeight);
+    };
+
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const handleScroll = () => {
-    const containerTop = containerRef.current.getBoundingClientRect().top;
-    if (containerTop <= 0) {
-      const scrollTop = window.pageYOffset;
-      setTranslateY(scrollTop);
-    }
-  };
-
-  useEffect(() => {
-    if (isIntersecting) {
-      window.addEventListener('scroll', handleScroll);
-    } else {
-      window.removeEventListener('scroll', handleScroll);
-    }
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [isIntersecting]);
-
-  return (
-    <div className="track-container" ref={containerRef}>
-      <div className="circle" style={{ transform: `translateY(${translateY}px)` }} />
-    </div>
-  );
+  return <div className="scroll-line" style={{ height: `${lineHeight}px` }} />;
 };
 
 export default Track;

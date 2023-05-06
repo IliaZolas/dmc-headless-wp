@@ -8,7 +8,7 @@ import Shield from '../assets/ShieldCheckered.png'
 
 const Timeline = () => {
     return (
-        <div className="flex">
+        <div className="timeline-container flex space-around">
             <div>
                 <Card 
                     title="Integration for all platforms"
@@ -18,8 +18,10 @@ const Timeline = () => {
                     title="Working round the clock"
                     text="DMC handles the work of an entire department, allowing you to focus on hiring diverse specialists on matters that web tech cannot."
                     icon={Alarm}/>
-            </div>            
-            {/* <Track /> */}
+            </div> 
+            <div className="track-container">
+                <Track />
+            </div>           
             <div>
                 <Card 
                     title="AI generated reporting"
