@@ -1,0 +1,19 @@
+.blog-section {
+    background-color: #022122;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+  }
+
+.blog-card-section {
+    background-color: #022122;
+    padding: 50px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.blog-title {
+    text-align: center;
+    padding-top: 50px ;
+}

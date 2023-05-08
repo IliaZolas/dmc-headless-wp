@@ -44,3 +44,23 @@
     // border: 1px solid red;
 
 }
+
+.blog-card {
+    position: relative;
+    min-width: 800px;
+    height:250px;
+    border: 1px solid #009C9C ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 158, 158);
+    margin-top: 10px;
+    margin-right: 100px;
+    text-align: left;
+    display: flex;
+
+}
+
+.blog-card-img {
+    min-width: 300px;
+    overflow: hidden;
+    margin-right: 50px;
+}
