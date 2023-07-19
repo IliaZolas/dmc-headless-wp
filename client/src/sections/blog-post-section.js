@@ -9,8 +9,9 @@ const BlogpostSection =  () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://the-dmc.iliazolas.com/wp-json/wp/v2/posts');
+                const response = await axios.get('https://dmc.iliazolas.com/wp-json/wp/v2/posts');
                 setBlogpost(response.data);
+                console.log(response.data);
             } catch (error) {
                 console.error(error);
             }

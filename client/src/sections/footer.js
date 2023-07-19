@@ -11,26 +11,26 @@ const Footer = () => {
                     </div>
                     <div className="footer-links-column">
                         <ul>
-                            <li><a href="">Solutions</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Case Studies</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="/#" alt="preview">Solutions</a></li>
+                            <li><a href="/#" alt="preview">Services</a></li>
+                            <li><a href="/#" alt="preview">Case Studies</a></li>
+                            <li><a href="/#" alt="preview">Contact</a></li>
                         </ul>
                     </div>
                     <div className="footer-links-column">
                         <ul>
-                            <li><a href="">Terms and Conditions</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Cookie Policy</a></li>
-                            <li><a href="">F.A.Q.</a></li>
+                            <li><a href="/#" alt="preview">Terms and Conditions</a></li>
+                            <li><a href="/#" alt="preview">Privacy Policy</a></li>
+                            <li><a href="/#" alt="preview">Cookie Policy</a></li>
+                            <li><a href="/#" alt="preview">F.A.Q.</a></li>
                         </ul>
                     </div>
                     <div className="footer-links-column">
                         <ul>
-                            <li><a href="">Careers</a></li>
-                            <li><a href="">Documentation</a></li>
-                            <li><a href="">Support</a></li>
-                            <li><a href="">Help</a></li>
+                            <li><a href="/#" alt="preview">Careers</a></li>
+                            <li><a href="/#" alt="preview">Documentation</a></li>
+                            <li><a href="/#" alt="preview">Support</a></li>
+                            <li><a href="/#" alt="preview">Help</a></li>
                         </ul>
                     </div>
                 </div>
